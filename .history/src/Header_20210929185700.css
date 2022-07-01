@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    background-color:black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    padding: 10px 0;
+}
+
+.header__icon--active > p{
+    display: inline-flex !important;
+}
+
+.header > img {
+    object-fit: contain;
+    height: 40px;
+}
+
+
+.header__left {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header__icon  {
+    margin: 10px 25px;
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.header__icon > p {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: none;
+    font-size: small;
+}
+
+.header__icon:hover > p{
+    display: inline-flex;
+    font-size: 10px;
+}
+

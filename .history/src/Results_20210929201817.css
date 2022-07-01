@@ -1,0 +1,9 @@
+.results {
+    background-image: linear-gradient(to right,#051421,#042727);
+    overflow-x: scroll;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+}

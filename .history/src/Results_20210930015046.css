@@ -1,0 +1,11 @@
+.results > div {
+    background-image: linear-gradient(to right,#051421,#042727);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+

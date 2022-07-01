@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,#051421,#042727);
+    padding: 20px 70px;
+    overflow-x: scroll;
+
+}
+/* Hide Scrollbar for Chrome,safari,opera */
+.header::-webkit-scrollbar {
+    display: none;
+}
+
+.header{
+    -ms-overflow-style: none; /*IE and Edge*/
+    scrollbar-width: none; /*Firefox*/
+}
+
+
+.nav h1{
+    font-weight: 200;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+.nav > h1:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}

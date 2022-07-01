@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,#051421,#042727);
+    padding: 10px 70px;
+
+}
+
+.nav h1{
+    font-weight: 200;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.nav::hover h1{
+    font-size: 20px ;
+}

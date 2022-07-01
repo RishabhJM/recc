@@ -1,0 +1,7 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right,#051421,#042727);
+    color: white;
+    font-size: 10px;
+}

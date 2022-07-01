@@ -1,0 +1,10 @@
+.card{
+    background-image: linear-gradient(to right,#051421,#042727);
+    
+}
+
+.card > img {
+    height: 300px;
+    width: 500px;
+    object-fit: contain;
+}

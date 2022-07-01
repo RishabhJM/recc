@@ -1,0 +1,21 @@
+.results {
+    background-image: linear-gradient(to right,#051421,#042727);
+    overflow-x: scroll;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Hide Scrollbar for Chrome,safari,opera */
+/* .results::-webkit-scrollbar {
+    display: none;
+}
+
+.results{
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+} */
+
+
+
+

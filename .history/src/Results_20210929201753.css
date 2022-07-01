@@ -1,0 +1,8 @@
+.results {
+    background-image: linear-gradient(to right,#051421,#042727);
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+}

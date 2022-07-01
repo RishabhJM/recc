@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    background-color:black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.header > img {
+    object-fit: contain;
+    height: 40px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header__icon  {
+    margin: 10px 15px;
+    cursor: pointer;
+} 
